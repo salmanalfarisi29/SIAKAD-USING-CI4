@@ -1,0 +1,306 @@
+CRITICAL - 2023-02-13 10:30:54 --> Invalid file: "CMahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CMahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('CMahasiswa', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(15): view('CMahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 10:32:29 --> Invalid file: "CMahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CMahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('CMahasiswa', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(15): view('CMahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 10:43:05 --> Invalid file: "CMahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CMahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('CMahasiswa', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(15): view('CMahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 10:52:33 --> Invalid file: "CMahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CMahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('CMahasiswa', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(15): view('CMahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 10:56:39 --> Invalid file: "CMahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CMahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('CMahasiswa', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(15): view('CMahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 11:03:20 --> Invalid file: "CMahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CMahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('CMahasiswa', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(15): view('CMahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 11:10:36 --> Invalid file: "home/v_home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/v_home.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home/v_home', [], true)
+ 3 APPPATH\Controllers\CHome.php(12): view('home/v_home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 11:10:42 --> Invalid file: "home/v_home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/v_home.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('home/v_home', [], true)
+ 3 APPPATH\Controllers\CHome.php(12): view('home/v_home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 11:11:19 --> Invalid file: "/v_home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/v_home.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/v_home', [], true)
+ 3 APPPATH\Controllers\CHome.php(12): view('/v_home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\controllers\CHome->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\controllers\CHome))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 11:11:38 --> Invalid file: "info/v_info.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('info/v_info.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('info/v_info', [], true)
+ 3 APPPATH\Controllers\CInfo.php(12): view('info/v_info', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CInfo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CInfo))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 11:21:53 --> Invalid file: "CMahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CMahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('CMahasiswa', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(15): view('CMahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 12:08:46 --> Invalid file: "VMahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('VMahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(17): view('VMahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 12:08:57 --> Invalid file: "VMahasiswa/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('VMahasiswa/index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa/index', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(17): view('VMahasiswa/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 12:09:19 --> Invalid file: "v_template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('v_template', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('layout/VMahasiswa', [], true)
+ 4 APPPATH\Controllers\CMahasiswa.php(17): view('layout/VMahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 12:09:21 --> Invalid file: "v_template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('v_template', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('layout/VMahasiswa', [], true)
+ 4 APPPATH\Controllers\CMahasiswa.php(17): view('layout/VMahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 12:10:12 --> Invalid file: "v_template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('v_template', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('layout/VMahasiswa', [], true)
+ 4 APPPATH\Controllers\CMahasiswa.php(17): view('layout/VMahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 12:13:47 --> Invalid file: "VMahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('VMahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(17): view('VMahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 12:14:31 --> Undefined variable $tittle
+in APPPATH\Views\layout\v_template.php on line 6.
+ 1 APPPATH\Views\layout\v_template.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'APPPATH\\Views\\layout\\v_template.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/v_template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('layout/VMahasiswa', [], true)
+ 6 APPPATH\Controllers\CMahasiswa.php(17): view('layout/VMahasiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 12:18:33 --> Undefined variable $tittle
+in APPPATH\Views\layout\v_template.php on line 7.
+ 1 APPPATH\Views\layout\v_template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'APPPATH\\Views\\layout\\v_template.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/v_template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('layout/VMahasiswa', [], true)
+ 6 APPPATH\Controllers\CMahasiswa.php(17): view('layout/VMahasiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 12:21:29 --> Undefined variable $tittle
+in APPPATH\Views\layout\v_template.php on line 7.
+ 1 APPPATH\Views\layout\v_template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'APPPATH\\Views\\layout\\v_template.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/v_template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('layout/VMahasiswa', [], true)
+ 6 APPPATH\Controllers\CMahasiswa.php(17): view('layout/VMahasiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 12:22:20 --> Undefined variable $tittle
+in APPPATH\Views\layout\v_template.php on line 6.
+ 1 APPPATH\Views\layout\v_template.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'APPPATH\\Views\\layout\\v_template.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/v_template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('layout/VMahasiswa', [], true)
+ 6 APPPATH\Controllers\CMahasiswa.php(17): view('layout/VMahasiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 12:22:23 --> Undefined variable $tittle
+in APPPATH\Views\layout\v_template.php on line 6.
+ 1 APPPATH\Views\layout\v_template.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tittle', 'APPPATH\\Views\\layout\\v_template.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/v_template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('layout/VMahasiswa', [], true)
+ 6 APPPATH\Controllers\CMahasiswa.php(17): view('layout/VMahasiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 12:25:47 --> Invalid file: "v_template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('v_template', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('layout/VMahasiswa', [], true)
+ 4 APPPATH\Controllers\CMahasiswa.php(17): view('layout/VMahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 14:06:04 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'akademis', 3306, '', 0)
+#1 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\PPL CI4\app\Models\MMahasiswa.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp\htdocs\PPL CI4\app\Controllers\CMahasiswa.php(15): App\Models\MMahasiswa->getMahasiswa()
+#5 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+#6 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+#7 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\PPL CI4\app\Models\MMahasiswa.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#3 C:\xampp\htdocs\PPL CI4\app\Controllers\CMahasiswa.php(15): App\Models\MMahasiswa->getMahasiswa()
+#4 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+#5 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+#6 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\PPL CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\PPL CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-02-13 14:06:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\MMahasiswa.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM akademis')
+ 3 APPPATH\Controllers\CMahasiswa.php(15): App\Models\MMahasiswa->getMahasiswa()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 14:32:00 --> syntax error, unexpected token ")", expecting "("
+in APPPATH\Controllers\CMahasiswa.php on line 81.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CMahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CMahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CMahasiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\CMahasiswa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-13 14:32:28 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\CMahasiswa.php on line 81.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\CMahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CMahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CMahasiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\CMahasiswa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

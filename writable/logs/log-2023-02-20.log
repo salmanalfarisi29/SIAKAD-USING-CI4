@@ -1,0 +1,664 @@
+INFO - 2023-02-20 07:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 07:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 07:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 07:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 07:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 07:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 07:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 07:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 07:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 07:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 07:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 07:58:25 --> Undefined property: stdClass::$id
+in APPPATH\Views\VMahasiswa.php on line 56.
+ 1 APPPATH\Views\VMahasiswa.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VMahasiswa.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(19): view('VMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 07:58:27 --> Undefined property: stdClass::$id
+in APPPATH\Views\VMahasiswa.php on line 56.
+ 1 APPPATH\Views\VMahasiswa.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VMahasiswa.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(19): view('VMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 07:58:52 --> Undefined property: stdClass::$id
+in APPPATH\Views\VMahasiswa.php on line 52.
+ 1 APPPATH\Views\VMahasiswa.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VMahasiswa.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(19): view('VMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:23:06 --> Call to a member function getRow() on array
+in APPPATH\Controllers\CMahasiswa.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:23:12 --> Call to a member function getRow() on array
+in APPPATH\Controllers\CMahasiswa.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:28:07 --> Invalid file: "mahasiswa/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa/edit.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mahasiswa/edit', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(111): view('mahasiswa/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:28:12 --> Invalid file: "mahasiswa/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa/edit.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mahasiswa/edit', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(111): view('mahasiswa/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:28:39 --> Invalid file: "mahasiswa/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa/edit.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mahasiswa/edit', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(111): view('mahasiswa/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:41:03 --> Invalid file: "mahasiswa/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa/edit.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mahasiswa/edit', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(111): view('mahasiswa/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:41:57 --> Invalid file: "mahasiswa/edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa/edit.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mahasiswa/edit', [], true)
+ 3 APPPATH\Controllers\CMahasiswa.php(111): view('mahasiswa/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:46:38 --> Undefined variable $akademis
+in APPPATH\Views\VEditMhs.php on line 5.
+ 1 APPPATH\Views\VEditMhs.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akademis', 'APPPATH\\Views\\VEditMhs.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:50:32 --> Undefined variable $akademis
+in APPPATH\Views\VEditMhs.php on line 8.
+ 1 APPPATH\Views\VEditMhs.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akademis', 'APPPATH\\Views\\VEditMhs.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:50:40 --> Undefined variable $akademis
+in APPPATH\Views\VEditMhs.php on line 8.
+ 1 APPPATH\Views\VEditMhs.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akademis', 'APPPATH\\Views\\VEditMhs.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:53:02 --> Undefined variable $akademis
+in APPPATH\Views\VEditMhs.php on line 8.
+ 1 APPPATH\Views\VEditMhs.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akademis', 'APPPATH\\Views\\VEditMhs.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:53:03 --> Undefined variable $akademis
+in APPPATH\Views\VEditMhs.php on line 8.
+ 1 APPPATH\Views\VEditMhs.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akademis', 'APPPATH\\Views\\VEditMhs.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:55:10 --> Undefined variable $akademis
+in APPPATH\Views\VEditMhs.php on line 8.
+ 1 APPPATH\Views\VEditMhs.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akademis', 'APPPATH\\Views\\VEditMhs.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 08:55:12 --> Undefined variable $akademis
+in APPPATH\Views\VEditMhs.php on line 8.
+ 1 APPPATH\Views\VEditMhs.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akademis', 'APPPATH\\Views\\VEditMhs.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:02:24 --> Undefined property: stdClass::$id
+in APPPATH\Views\VEditMhs.php on line 16.
+ 1 APPPATH\Views\VEditMhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VEditMhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:02:26 --> Undefined property: stdClass::$id
+in APPPATH\Views\VEditMhs.php on line 16.
+ 1 APPPATH\Views\VEditMhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VEditMhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:03:55 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\PPL CI4\app\Controllers\CMahasiswa.php on line 111
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', '211511059')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 09:04:14 --> view(): Argument #3 ($options) must be of type array, string given, called in C:\xampp\htdocs\PPL CI4\app\Controllers\CMahasiswa.php on line 111
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...], '211511059')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 09:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 09:13:42 --> Undefined property: stdClass::$id
+in APPPATH\Views\VEditMhs.php on line 16.
+ 1 APPPATH\Views\VEditMhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VEditMhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('777777')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 09:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 09:51:36 --> Undefined property: stdClass::$id
+in APPPATH\Views\VEditMhs.php on line 16.
+ 1 APPPATH\Views\VEditMhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VEditMhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('777777')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 09:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 09:52:10 --> Undefined property: stdClass::$id
+in APPPATH\Views\VEditMhs.php on line 16.
+ 1 APPPATH\Views\VEditMhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VEditMhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('777777')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 09:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 09:52:18 --> Undefined property: stdClass::$id
+in APPPATH\Views\VEditMhs.php on line 16.
+ 1 APPPATH\Views\VEditMhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VEditMhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511055')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 09:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 09:53:14 --> Undefined property: stdClass::$id
+in APPPATH\Views\VEditMhs.php on line 16.
+ 1 APPPATH\Views\VEditMhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VEditMhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511055')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 09:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 09:54:14 --> Undefined property: stdClass::$id
+in APPPATH\Views\VEditMhs.php on line 16.
+ 1 APPPATH\Views\VEditMhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VEditMhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511055')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 09:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 09:57:14 --> Undefined property: stdClass::$id
+in APPPATH\Views\VEditMhs.php on line 16.
+ 1 APPPATH\Views\VEditMhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VEditMhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511055')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 10:01:50 --> Undefined property: stdClass::$id
+in APPPATH\Views\VMahasiswa.php on line 56.
+ 1 APPPATH\Views\VMahasiswa.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VMahasiswa.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(19): view('VMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 10:01:52 --> Undefined property: stdClass::$id
+in APPPATH\Views\VMahasiswa.php on line 56.
+ 1 APPPATH\Views\VMahasiswa.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VMahasiswa.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(19): view('VMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 10:01:53 --> Undefined property: stdClass::$id
+in APPPATH\Views\VMahasiswa.php on line 56.
+ 1 APPPATH\Views\VMahasiswa.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VMahasiswa.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(19): view('VMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 10:03:59 --> Undefined variable $id
+in APPPATH\Views\VMahasiswa.php on line 51.
+ 1 APPPATH\Views\VMahasiswa.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\VMahasiswa.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(19): view('VMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 10:04:16 --> Undefined variable $id
+in APPPATH\Views\VMahasiswa.php on line 51.
+ 1 APPPATH\Views\VMahasiswa.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\VMahasiswa.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(19): view('VMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 10:05:44 --> Undefined variable $no
+in APPPATH\Views\VMahasiswa.php on line 51.
+ 1 APPPATH\Views\VMahasiswa.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'APPPATH\\Views\\VMahasiswa.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(19): view('VMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 10:05:59 --> Undefined variable $id
+in APPPATH\Views\VMahasiswa.php on line 51.
+ 1 APPPATH\Views\VMahasiswa.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\VMahasiswa.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(19): view('VMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 10:06:01 --> Undefined variable $id
+in APPPATH\Views\VMahasiswa.php on line 51.
+ 1 APPPATH\Views\VMahasiswa.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\VMahasiswa.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VMahasiswa', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(19): view('VMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 10:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 10:10:54 --> Undefined property: stdClass::$id
+in APPPATH\Views\VEditMhs.php on line 16.
+ 1 APPPATH\Views\VEditMhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VEditMhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511055')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 10:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 10:11:24 --> Undefined property: stdClass::$id
+in APPPATH\Views\VEditMhs.php on line 16.
+ 1 APPPATH\Views\VEditMhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VEditMhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511055')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 10:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 10:11:35 --> Undefined property: stdClass::$id
+in APPPATH\Views\VEditMhs.php on line 16.
+ 1 APPPATH\Views\VEditMhs.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\VEditMhs.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VEditMhs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('VEditMhs', [], true)
+ 5 APPPATH\Controllers\CMahasiswa.php(111): view('VEditMhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->edit('211511059')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 10:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-20 10:13:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id=''' at line 1 in C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE akademis...', 0)
+#1 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE akademis...')
+#2 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE akademis...')
+#3 C:\xampp\htdocs\PPL CI4\app\Models\MMahasiswa.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE akademis...')
+#4 C:\xampp\htdocs\PPL CI4\app\Controllers\CMahasiswa.php(124): App\Models\MMahasiswa->updateMahasiswa(Array)
+#5 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(934): App\Controllers\CMahasiswa->update()
+#6 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+#7 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-20 10:13:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id=''' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MMahasiswa.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE akademis SET nim=\'211511059\', nama=\'Salman Alfarisi\', umur=\'10\', WHERE id=\'\'')
+ 2 APPPATH\Controllers\CMahasiswa.php(124): App\Models\MMahasiswa->updateMahasiswa([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->update()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-20 10:14:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE nim='211511059'' at line 1 in C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE akademis...', 0)
+#1 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE akademis...')
+#2 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE akademis...')
+#3 C:\xampp\htdocs\PPL CI4\app\Models\MMahasiswa.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE akademis...')
+#4 C:\xampp\htdocs\PPL CI4\app\Controllers\CMahasiswa.php(124): App\Models\MMahasiswa->updateMahasiswa(Array)
+#5 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(934): App\Controllers\CMahasiswa->update()
+#6 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+#7 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-20 10:14:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE nim='211511059'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MMahasiswa.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE akademis SET nim=\'211511059\', nama=\'Salman Alfarisi\', umur=\'10\', WHERE nim=\'211511059\'')
+ 2 APPPATH\Controllers\CMahasiswa.php(124): App\Models\MMahasiswa->updateMahasiswa([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->update()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 10:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-20 10:14:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE nim='211511059'' at line 1 in C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE akademis...', 0)
+#1 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE akademis...')
+#2 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE akademis...')
+#3 C:\xampp\htdocs\PPL CI4\app\Models\MMahasiswa.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE akademis...')
+#4 C:\xampp\htdocs\PPL CI4\app\Controllers\CMahasiswa.php(124): App\Models\MMahasiswa->updateMahasiswa(Array)
+#5 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(934): App\Controllers\CMahasiswa->update()
+#6 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+#7 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-20 10:14:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE nim='211511059'' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MMahasiswa.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE akademis SET nim=\'211511059\', nama=\'Salman Alfarisi\', umur=\'10\', WHERE nim=\'211511059\'')
+ 2 APPPATH\Controllers\CMahasiswa.php(124): App\Models\MMahasiswa->updateMahasiswa([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->update()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-20 10:18:27 --> mysqli_sql_exception: Table 'akademis.mahasiswa' doesn't exist in C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE mahasisw...', 0)
+#1 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE mahasisw...')
+#2 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE mahasisw...')
+#3 C:\xampp\htdocs\PPL CI4\app\Models\MMahasiswa.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE mahasisw...')
+#4 C:\xampp\htdocs\PPL CI4\app\Controllers\CMahasiswa.php(124): App\Models\MMahasiswa->updateMahasiswa(Array)
+#5 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(934): App\Controllers\CMahasiswa->update()
+#6 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+#7 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-20 10:18:27 --> Table 'akademis.mahasiswa' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MMahasiswa.php(71): CodeIgniter\Database\BaseConnection->query('UPDATE mahasiswa SET nama = \'Salman Alfarisi\', nim = \'211511059\', umur = \'10\' WHERE nim=\'211511059\'')
+ 2 APPPATH\Controllers\CMahasiswa.php(124): App\Models\MMahasiswa->updateMahasiswa([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CMahasiswa->update()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CMahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 10:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-20 10:44:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(831): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\CLogin.php(25): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CLogin->auth()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CLogin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 10:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 10:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 12:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-20 12:56:44 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'akademis', 3306, '', 0)
+#1 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\PPL CI4\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\PPL CI4\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\PPL CI4\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\PPL CI4\app\Controllers\CLogin.php(25): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(934): App\Controllers\CLogin->auth()
+#8 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CLogin))
+#9 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PPL CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PPL CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\PPL CI4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\PPL CI4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\PPL CI4\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\PPL CI4\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\PPL CI4\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\PPL CI4\app\Controllers\CLogin.php(25): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(934): App\Controllers\CLogin->auth()
+#7 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CLogin))
+#8 C:\xampp\htdocs\PPL CI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\PPL CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\PPL CI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-20 12:56:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` LIKE BINARY :username LIKE BINARY:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\CLogin.php(25): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CLogin->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-20 13:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-20 13:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

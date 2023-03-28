@@ -1,0 +1,11 @@
+__ci_last_regenerate|i:1677506512;_ci_previous_url|s:43:"http://localhost:8080/index.php/pegawai/add";id|s:1:"1";nama|s:6:"salman";username|s:8:"salman03";logged_in|b:1;msg|s:378:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>The nip field must be exactly 9 characters in length.</li>
+					<li>The nama field may only contain alphabetical characters.</li>
+					<li>The telepon field is required.</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";__ci_vars|a:3:{s:3:"msg";s:3:"old";s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:6:{s:3:"nip";s:1:"1";s:4:"nama";s:1:"1";s:6:"gender";s:4:"Pria";s:4:"telp";s:10:"1234567890";s:5:"email";s:16:"dqweerr@mail.com";s:10:"pendidikan";s:2:"SD";}}_ci_validation_errors|a:3:{s:3:"nip";s:53:"The nip field must be exactly 9 characters in length.";s:4:"nama";s:56:"The nama field may only contain alphabetical characters.";s:7:"telepon";s:30:"The telepon field is required.";}
